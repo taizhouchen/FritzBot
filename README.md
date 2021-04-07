@@ -37,8 +37,16 @@ Then run
                   --max_seq_length=128   \
                   --train_batch_size=32   \
                   --learning_rate=2e-5   \
-                  --num_train_epochs=3.0   \
+                  --num_train_epochs=128.0   \
                   --output_dir=./output/result_dir/ 	\
                   --num_layers=4	
+```
+
+## Predict
+
+Replace [model_dir] and [bert_dir] with your own in script terminal_predict_fritzbot.py, and run it. 
+
+```
+python3 terminal_predict_fritzbot.py
 ```
 
